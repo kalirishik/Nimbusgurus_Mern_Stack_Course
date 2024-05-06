@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORM</title>
+    <link rel="stylesheet" href="form.css">
+    <script src="form.js"></script>
+</head>
+<body>
+    <center>
+        <h1 class="heading">INFORMATION TESK</h1>
+        <div class="data">
+            <form>
+                <table>
+            <tr>
+                <td><label >NAME : </label></td><td><input type="text"  id="name" required></td>
+            </tr>
+            <tr>
+                <td><label>DEPARTMENT : </label></td><td><input type="text" id="depart" required></td>
+            </tr>
+            <tr>
+                <td><label>PREFERRED SPORTS : </label></td><td><input type="radio"  ><label id="style_input1"> KABADDI</label></td>
+            </tr>
+            <tr>
+                <td></td><td><input type="radio" ><label id="style_input1"> CRICKET</label></td>
+            </tr>
+                <td></td><td><input type="radio"  ><label id="style_input1"> FOOTBALL</label></td>
+            <tr>
+                <td></td><td><input type="radio"  ><label id="style_input1"> HOCKEY</label></td>
+            </tr>   
+            <tr>
+                <td><label>LANGUAGES KNOWN : </label></td><td><input type="checkbox"><label id="style_input2"> TAMIL</label></td>
+            </tr>
+            <tr>
+                <td></td><td><input type="checkbox" ><label id="style_input2"> ENGLISH</label></td>
+            </tr>
+            <tr>
+                <td></td><td><input type="checkbox"><label id="style_input2"> JAPANESE</label></td>
+            </tr>
+            <tr>
+                <td></td><td><input type="checkbox" ><label id="style_input2"> KOREAN</label></td>
+            </tr>
+        </table><BR>
+            <button  id="btn-style" onclick="Validate()">SUBMIT</button>
+        </form>
+        </div>
+    </center>
+</body>
+</html>

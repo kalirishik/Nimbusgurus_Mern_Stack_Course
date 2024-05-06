@@ -1,0 +1,24 @@
+
+div{
+    background-color: bisque;    
+}
+button{
+    margin:10px;
+    color:white;
+    background-color:black;
+    padding: 5px;
+    border:2px solid black;
+}
+button:hover{
+    border-radius: 5px;
+    color:black;
+    background-color:aqua;
+}
+h1{
+    color: black;
+    background-color: aqua;
+}
+h2{
+    color:black;
+    background-color:tomato;
+}

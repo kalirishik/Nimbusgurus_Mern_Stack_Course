@@ -1,0 +1,29 @@
+.heading{
+    background-color: aqua;
+    font-family:cursive;
+}
+form{
+    border: 2px solid black;
+    padding: 15px;
+    background-color: bisque;
+}
+.data{
+    display: flex;
+    justify-content: center;
+}
+label{
+    color:black;
+    font-family: sans-serif;
+}
+#style_input1{
+    color: deeppink;
+}
+#style_input2{
+    color:dodgerblue;
+}
+#btn-style{
+    color:black;
+    background-color: aqua;
+    border-radius: 10px;
+    font-size: 18px;
+}
